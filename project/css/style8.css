@@ -1,0 +1,78 @@
+.main2 {
+    background: url(hotel2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.main2 h1 {
+    color: #769cd6;
+    display: inline-flex;
+    padding-top: 0.6em;
+}
+
+.main2 h1:hover {
+    transform: translateY(-10px);
+    color: rgb(170, 15, 15);
+}
+
+footer {
+    width: 100%;
+    background: #13376d;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .icon li,
+footer .menu li {
+    list-style: none;
+}
+
+footer .icon li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .icon li a:hover {
+    transform: translateY(-10px);
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}

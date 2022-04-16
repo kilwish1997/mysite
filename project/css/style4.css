@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: arial, sans-serif;
+    background-color: rgb(99, 99, 199);
+}
+
+input,
+textarea {
+    display: block;
+    width: 300px;
+    font-size: 18px;
+    margin: 7px 0px;
+}
+
+label {
+    display: block;
+    padding: 2px 0px;
+}

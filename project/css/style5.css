@@ -1,0 +1,102 @@
+.heading {
+    max-width: 80%;
+    background-color: rgb(97, 97, 226);
+    padding: 24px;
+    margin: auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading h3,
+p {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+.about {
+    max-width: 80%;
+    background-color: rgba(155, 175, 68, 0.836);
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.heading h3:hover {
+    color: rgb(30, 52, 153);
+    background-color: white;
+}
+
+.about button {
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    margin: 20px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    padding: 12px 28px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.about button:hover {
+    background-color: black;
+    color: white;
+}
+
+input {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    background: #13376d;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .menu {
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .menu li {
+    list-style: none;
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
